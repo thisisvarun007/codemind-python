@@ -1,4 +1,4 @@
 a=input()
-l=len(a)
-for i in range(l-1,-1,-1):
-    print(a[i],end="")
+arr=list(a.split())
+for i in range(len(arr)-1,-1,-1):
+    print(arr[i],end=" ")
